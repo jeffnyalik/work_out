@@ -46,6 +46,7 @@ class Solution:
         return (dec or inc)
 
 if __name__ == "__main__":
-    arr = [6, 5, 4, 4]
+    # arr = [6, 5, 4, 4] ## True
+    arr = [1,3,2] ## False
     cls = Solution()
     print(cls.monotonicArray(arr))
