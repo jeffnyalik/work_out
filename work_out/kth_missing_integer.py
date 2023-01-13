@@ -13,6 +13,10 @@ Example 2:
 Input: arr = [1,2,3,4], k = 2
 Output: 6
 Explanation: The missing positive integers are [5,6,7,...]. The 2nd missing positive integer is 6.
+
+Follow up:
+
+Could you solve this problem in less than O(n) complexity?
 """""
 from typing import List
 
