@@ -38,7 +38,7 @@ class Solution:
             else:
                 freq[num]+=1
         
-        for key, val in freq.items():
+        for val, key in freq.items():
             if(len(heap) < k):
                 heappush(heap, [val, key])
             else:
@@ -47,6 +47,7 @@ class Solution:
         return [key for val, key in heap]
 
 if __name__ == "__main__":
+    nums  = [6, 1, 1, 1, 2, 2, 3]
     nums =  [1,1,1,2,2,3]
     k = 2
     cls = Solution()
