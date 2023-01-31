@@ -6,6 +6,5 @@ def fib(n):
         res = fib(n-1) + fib(n-2)
     return res
 
-
 n = 9
 print(fib(n))
